@@ -1,0 +1,6 @@
+<main class="container">
+  <%= form_with url: "/send_email" do |f| %>
+    <%= f.text_field :email, placeholder: "email" %>
+    <%= f.submit "Send mail" %>
+  <% end %>
+</main>
